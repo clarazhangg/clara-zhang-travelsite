@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 0.8rem;
+}
+
 .navbar {
   background-color: $white-color;
   display: flex;
@@ -31,7 +35,7 @@ body {
     &--link {
       color: $blue-c;
       font-weight: bold;
-      margin-left: 6rem;
+      margin-left: 5rem;
     }
   }
 

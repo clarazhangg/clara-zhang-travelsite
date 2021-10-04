@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 0.8rem;
+}
+
 .navbar {
   background-color: #ffffff;
   display: flex;
@@ -25,7 +29,7 @@ body {
 .navbar__heading--link {
   color: #335576;
   font-weight: bold;
-  margin-left: 6rem;
+  margin-left: 5rem;
 }
 .navbar__list {
   color: #393939;
