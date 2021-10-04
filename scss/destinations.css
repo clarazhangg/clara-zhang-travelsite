@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__heading {
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__heading--link {
+  color: #335576;
+  font-weight: bold;
+  margin-left: 6rem;
+}
+.navbar__list {
+  color: #393939;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar__list--container {
+  width: 24rem;
+}
+.navbar__list--link {
+  color: #393939;
+  padding-bottom: 3px;
+}
+
+.current {
+  border-bottom: solid 2px #db7a4e;
+}/*# sourceMappingURL=destinations.css.map */

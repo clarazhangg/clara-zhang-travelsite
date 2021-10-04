@@ -1,0 +1,170 @@
+@use "partials/global" as *;
+
+// welcome page
+.welcome {
+  &-page {
+    display: flex;
+    background-color: $baige-c;
+    width: 100%;
+  }
+
+  &-text {
+    position: relative;
+    left: 6rem;
+    top: 5rem;
+
+    &__heading {
+      margin-right: 0%;
+      margin-bottom: 1.5rem;
+      width: fit-content;
+    }
+
+    &__p {
+      width: 46%;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+.welcome-page {
+  &__image--container {
+    display: inline-block;
+  }
+
+  &__image {
+    display: inline-block;
+    width: 17rem;
+    padding-bottom: 2rem;
+  }
+}
+
+// card
+
+.card {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 23rem;
+    display: inline-block;
+    margin: 1.25rem 2.65rem;
+    background-color: #fff0ed;
+    height: 30rem;
+  }
+
+  &-image__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 20rem;
+    border-radius: 10px;
+  }
+
+  &__image {
+    height: 16rem;
+  }
+
+  &-text__container {
+    display: flex;
+  }
+
+  &__title {
+    margin-bottom: 0.1rem;
+    padding-left: 1rem;
+  }
+
+  &__description {
+    padding-left: 1rem;
+    margin: 0;
+    color: #909090;
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    margin: 3rem 0 0 3rem;
+  }
+}
+
+.button {
+  background-color: #5bacc3;
+  color: white;
+  padding: 14px 24px;
+  text-align: center;
+  width: 8rem;
+
+  &__container--viewall {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.3rem;
+  }
+
+  &__container--viewall-div {
+    position: relative;
+    border: #393939 solid 2px;
+    width: 173px;
+    height: 53px;
+    top: -5px;
+    right: 181px;
+  }
+}
+
+// footer
+.footer {
+  &__container {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+
+  &__address,
+  &__hours,
+  &__social {
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 3rem;
+    vertical-align: top;
+  }
+
+  &__hours,
+  &__social {
+    margin-left: 5.5rem;
+  }
+
+  &r__title {
+    margin: 2rem 0 0 0;
+  }
+  &__social--link {
+    padding: 0rem;
+    margin: 0 0.2rem;
+  }
+
+  .icon {
+    width: 3rem;
+    margin: 1.125rem 0;
+  }
+
+  &-background-image__link1 {
+    width: 90px;
+    top: 3rem;
+    left: -2rem;
+    position: absolute;
+    opacity: 25%;
+  }
+
+  &-background-image__link2 {
+    float: right;
+    width: 90px;
+    opacity: 25%;
+    position: absolute;
+    right: -2rem;
+    bottom: 4rem;
+  }
+}

@@ -1,0 +1,56 @@
+$white-color: #ffffff;
+$blue-c: #335576;
+$orange-c: #db7a4e;
+$baige-c: #fefaf5;
+$font-stack: Verdana, Geneva, Tahoma, sans-serif;
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+}
+
+.navbar {
+  background-color: $white-color;
+  display: flex;
+  justify-content: flex-end;
+
+  &__heading {
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--link {
+      color: $blue-c;
+      font-weight: bold;
+      margin-left: 6rem;
+    }
+  }
+
+  &__list {
+    color: #393939;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &--container {
+      width: 24rem;
+    }
+    &--link {
+      color: #393939;
+      padding-bottom: 3px;
+    }
+  }
+}
+
+.current {
+  border-bottom: solid 2px $orange-c;
+}
