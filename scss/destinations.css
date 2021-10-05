@@ -1,5 +1,6 @@
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -42,11 +43,11 @@ p {
 }
 .navbar__list--link {
   color: #393939;
-  padding-bottom: 3px;
+  padding-bottom: 6px;
 }
 
 .current {
-  border-bottom: solid 2px #db7a4e;
+  border-bottom: solid 3px #db7a4e;
 }
 
 .footer__container {
@@ -94,8 +95,6 @@ p {
   height: 44rem;
   display: flex;
   justify-content: center;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .background-image {
@@ -109,14 +108,36 @@ p {
   position: absolute;
   width: 100%;
 }
+.main-text__container .title {
+  margin: 5rem 5rem 3rem;
+  font-size: 3rem;
+  color: white;
+}
 
 .card__container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .card {
+  background-color: #ffffff;
+  width: 11.5rem;
+  height: 16.5rem;
+  margin: 0 2rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.card__title {
+  font-size: 15px;
+  border-bottom: solid 2px black;
+  font-weight: bold;
+  margin: 0.5rem 0 1.3rem;
+}
+.card__food {
+  font-size: 1vw;
   background-color: #fefaf5;
-  width: 12rem;
+  padding: 0.6rem 1rem;
+  margin: 0.7rem 0.2rem;
 }/*# sourceMappingURL=destinations.css.map */

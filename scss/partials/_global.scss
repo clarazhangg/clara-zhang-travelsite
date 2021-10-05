@@ -1,11 +1,8 @@
-$white-color: #ffffff;
-$blue-c: #335576;
-$orange-c: #db7a4e;
-$baige-c: #fefaf5;
-$font-stack: Verdana, Geneva, Tahoma, sans-serif;
+@use "colors" as *;
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -50,13 +47,13 @@ p {
     }
     &--link {
       color: #393939;
-      padding-bottom: 3px;
+      padding-bottom: 6px;
     }
   }
 }
 
 .current {
-  border-bottom: solid 2px $orange-c;
+  border-bottom: solid 3px $orange-c;
 }
 
 // footer
