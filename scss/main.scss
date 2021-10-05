@@ -3,9 +3,7 @@
 // welcome page
 .welcome {
   &-page {
-    display: flex;
     background-color: $baige-c;
-    width: 100%;
     height: 34rem;
     position: relative;
   }
@@ -14,10 +12,8 @@
     position: absolute;
     left: 5rem;
     top: 7rem;
-    margin-right: 3rem;
 
     &__heading {
-      margin-right: 0%;
       margin-bottom: 1.5rem;
       width: 29rem;
       color: $blue-c;
@@ -49,7 +45,6 @@
 
 .product-page__title {
   color: $blue-c;
-  width: fit-content;
   margin: 3rem 0 2rem 5rem;
 }
 .card {
@@ -80,7 +75,6 @@
   background-color: $orange-c;
   color: white;
   padding: 10px 28px;
-  text-align: center;
   border-radius: 2rem;
 
   &__container--viewall {
