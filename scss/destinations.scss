@@ -1,1 +1,31 @@
 @use "./partials/global" as *;
+
+.container {
+  position: relative;
+  height: 44rem;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.background-image {
+  width: 81rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-text__container {
+  position: absolute;
+  width: 100%;
+}
+
+.card__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: $baige-c;
+  width: 12rem;
+}

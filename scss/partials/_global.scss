@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .navbar {
@@ -57,4 +57,51 @@ p {
 
 .current {
   border-bottom: solid 2px $orange-c;
+}
+
+// footer
+.footer {
+  &__container {
+    display: flex;
+    justify-content: center;
+    background-color: $baige-c;
+  }
+
+  &__hours {
+    margin: 0 4%;
+  }
+  &-hours--day {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-hours--time {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__day {
+    color: $orange-c;
+    margin: 1.5rem 2rem 0.2rem 0;
+    font-size: 0.6rem;
+  }
+
+  &__time {
+    margin: 0.5rem 2rem 2rem 0;
+    color: $blue-c;
+  }
+
+  &__title {
+    margin: 2rem 0 0 0;
+    color: $blue-c;
+  }
+  &__social--link {
+    padding: 0rem;
+    margin: 0 0.2rem;
+  }
+}
+
+.icon {
+  height: 1.3rem;
+  margin-top: 2.4rem;
+  margin-right: 0.5rem;
 }

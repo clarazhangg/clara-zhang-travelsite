@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .navbar {
@@ -47,4 +47,76 @@ p {
 
 .current {
   border-bottom: solid 2px #db7a4e;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  background-color: #fefaf5;
+}
+.footer__hours {
+  margin: 0 4%;
+}
+.footer-hours--day {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-hours--time {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__day {
+  color: #db7a4e;
+  margin: 1.5rem 2rem 0.2rem 0;
+  font-size: 0.6rem;
+}
+.footer__time {
+  margin: 0.5rem 2rem 2rem 0;
+  color: #335576;
+}
+.footer__title {
+  margin: 2rem 0 0 0;
+  color: #335576;
+}
+.footer__social--link {
+  padding: 0rem;
+  margin: 0 0.2rem;
+}
+
+.icon {
+  height: 1.3rem;
+  margin-top: 2.4rem;
+  margin-right: 0.5rem;
+}
+
+.container {
+  position: relative;
+  height: 44rem;
+  display: flex;
+  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.background-image {
+  width: 81rem;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-text__container {
+  position: absolute;
+  width: 100%;
+}
+
+.card__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #fefaf5;
+  width: 12rem;
 }/*# sourceMappingURL=destinations.css.map */
